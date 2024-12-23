@@ -1,0 +1,44 @@
+.body1{
+  margin: 0;
+  padding: 0;
+}
+
+/* Add your own CSS styles here */
+.body1 {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  position: sticky;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  display: flex; /* Add flex display to the header */
+  justify-content: space-between; /* Push items to the edges of the header */
+  align-items: center; /* Vertically align items */
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 100; /* Ensure it's above other elements */
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 28px;
+}
+
+nav .nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}

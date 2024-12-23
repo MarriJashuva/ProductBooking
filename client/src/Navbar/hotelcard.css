@@ -1,0 +1,38 @@
+/* Add your CSS styles here */
+.hotel-card {
+    display: flex;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image {
+    flex: 1.5;
+    padding: 10px;
+  }
+  
+  .image img {
+    width: 400px;
+    height: 250px;
+  }
+  
+  .details {
+    flex: 2;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
